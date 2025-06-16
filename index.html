@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QuizTime</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <h2>QuizTime</h2>
+    </header>
+    <div id="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <h1 id="question">Question text</h1>
+    <div id="answers"></div>
+    <button id="next-btn">Continue</button>
+    <p id="feedback"></p>
+
+    <!-- ✅ Result & Replay Button -->
+    <div id="result-container" style="display: none;">
+      <h2 id="score"></h2>
+      <button id="replay-btn">Replay Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
