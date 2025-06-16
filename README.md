@@ -1,5 +1,7 @@
 # QuizTime
 
+https://thopateeesha.github.io/Quiz-App/
+
 A simple, interactive quiz web app built with HTML, CSS, and JavaScript.
 
 ## Features
